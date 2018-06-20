@@ -1,0 +1,10 @@
+#!/bin/bash
+
+On_Cyan='\033[46m'        # Cyan
+On_White='\033[47m'       # White
+On_Yellow='\033[43m'      # Yellow
+NC='\033[0m' # No Color
+
+printf "${On_Cyan}         ${NC}\n"
+printf "${On_White}    ${On_Yellow} ${On_White}    ${NC}\n"
+printf "${On_Cyan}         ${NC}\n"
